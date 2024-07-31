@@ -1,0 +1,136 @@
+ body{
+  /* background-color: rgb(66, 66, 197); */
+  background-color: rgb(100, 47, 100);
+  
+} 
+.mainTop{
+  width: 95%;
+  border: 1px solid rgb(87, 80, 80);
+  margin-left: 2%;
+  margin-top: 1%;
+  border-radius: 5px;
+  background-color: rgb(189, 148, 228);
+}
+/* .topNav{
+   
+
+} */
+nav{
+  display: flex;
+  margin-left: 2%;
+  margin-top: 20px;
+  
+  
+}
+img{
+  width: 100px;
+  height: 50px;
+}
+.navList{
+  display: flex;
+  gap: 20px;
+  margin-left: 300px;
+  align-items: center;
+}
+li{
+  list-style-type: none;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  
+  
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.loginButton{
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-left: 400px;
+}
+h1{
+  align-items: center;
+  margin-top: 50px;
+  color:black;
+  text-align: center;
+  font-size: 80px;
+}
+
+
+.restList{
+  display: grid;
+  grid-template-columns: auto auto auto;  
+  width: 100%;
+  gap: 20px;
+  
+}
+.restSetting{
+  background-color: black;
+  color:white;
+  border: 1px solid black;
+  
+}
+
+.inputSearch{
+  height:30px;
+  width: 300px;
+  margin-left: 40%;
+  margin-bottom: 2%;
+  border-radius: 5px;
+  background-color: rgb(25, 71, 38);
+  color: white;
+}
+.searchButton{
+  height: 25px;
+  background-color: black;
+  color: white;
+  margin-left: 10px;
+}
+.searchRefreshButton{
+  height: 25px;
+  background-color: black;
+  color: white;
+  margin-left: 10px;
+}
+
+/* Body */
+
+.foodbody{
+  width: 1000px;
+  height: 500px;
+  margin-left: 5%;
+  margin-top: -30px;
+}
+
+/* Footer */
+.footerPart{
+  
+  border: 1px solid rgb(87, 80, 80);
+  margin-left: 5%;
+  margin-top: 1%;
+  margin-bottom: 2%;
+  margin-right: 5%;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;  
+  width: 90%;
+  gap: 20px;
+  background-color: black;
+  color: white;
+}
+.footerList{
+  font-size: small;
+  margin-top: -20px;
+  margin-left: 5%;
+  font-style: normal;
+}
+h3{
+  margin-left: 5%;
+}
